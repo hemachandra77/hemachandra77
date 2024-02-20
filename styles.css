@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8; /* Set a light gray background color */
+}
+
+header {
+    background-color: #333; /* Dark background for the header */
+    padding: 20px;
+    
+    text-align: center;
+    color: #fff; /* White text color for better contrast */
+  
+}
+
+header h1 {
+    margin: 10px 0;
+   
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* White color for navigation links */
+}
+
+nav ul li a:hover {
+    color: #ddd; /* Light gray color on hover */
+}
+
+section {
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff; /* White background for section containers */
+    padding: 20px;
+    border-radius: 8px; /* Add a slight border radius for a softer look */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.topic{
+    background-color: rgb(189, 209, 209);
+    color: black;
+    box-shadow: 3px 4px 5px 6px;
+    padding: 20px;
+}
+.topic:target{
+    background-color: rgb(137, 118, 118);
+    color: black;
+
+}
+.topic:hover{
+    background-color: rgb(212, 212, 230);
+
+}
+.topic:hover{
+    background-color: rgb(37, 37, 48);
+
+}
+#about{
+    text-align: left;
+}
